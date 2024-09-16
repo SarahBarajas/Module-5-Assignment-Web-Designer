@@ -1,19 +1,19 @@
 h1{
-    color: darkorchid; /*purple text color*/
+    color:rgb(52, 7, 7); /*purple text color*/
     font-size: 4em; /*2x the default font size*/
     margin-bottom: 1em; /*adding some space below the heading*/
     text-shadow: 1px 1px black;
     text-decoration-color: black;
     text-align:center;
 }
-h2, h3,h4,h5,h6 { color: darkmagenta; 
+h2, h3,h4,h5,h6 { color: rgb(216, 8, 8); 
     font-size: 3em; /*3x the default font size*/
     margin-bottom: 1em; /*adding some space below the heading*/
     text-shadow: 1px 1px black;
     text-decoration-color: black;
     text-align:center;
 } 
-p a { color: red; } /* targeting a sub-element*/
+p a { color: rgb(52, 7, 7); } /* targeting a sub-element*/
 p{
     font-size: larger;
     color: black;
@@ -26,7 +26,9 @@ a:hover { background-color: rgb(255, 0, 89); color: white; }
 
 ul li{
     margin-bottom: 5px; /* adding some space below each list item*/
-    color: purple; /* grayish-blue text color*/
+    color:rgb(52, 7, 7); 
+    text-align: center;
+    list-style-type: none; 
 }
 
 body { 
@@ -43,3 +45,30 @@ body {
         display:flex;
         justify-content: center;
       }
+      
+      a{
+        display: inline-block; /*making the link a block element*/
+        color: whitesmoke; /*bright blue text color*/
+        text-decoration: none; /*removing the underline*/
+        padding: 5px 10px; /*adding some space inside the link*/
+        border: 1px solid red; /*bright blue border color */
+        transition: all 0.3s ease; /*adding a transition*/
+    }
+    ol li{
+        margin-bottom: 5px; /* adding some space below each list item*/
+        color:rgb(52, 7, 7); 
+        text-align: center;
+        list-style-type: none; 
+    }
+    .external-css {
+        color:#cb3d3d; /*teal text color*/
+        background-color: black; /*dark teal background color*/
+    }
+    .highlight {
+        background-color: rgb(159, 18, 18);
+        font-weight: bold;
+    }
+    #mainContent {
+        background-color:rgb(159, 18, 18);
+        padding: 20px;
+        }
