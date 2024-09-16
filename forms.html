@@ -19,7 +19,40 @@
         </nav>
         <h1>Mythological Creatures</h1>
     </header>
-    <main></main>
+    <main>
+         <!--Beginning of the form element-->
+         <form action="/submit" method="post">
+
+            <!--label and text input field-->
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+            <br><!--adds a line break-->
+
+            <!--label and password input field-->
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" placeholder="Enter your password">
+
+            <br>
+
+            <!--label and email input field-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com">
+
+            <br>
+
+             <!--date input for selecting a date-->
+             <label for="birthday">Birth Date:</label>
+             <input type="date" id="birthdate" name="birthdate">
+
+            <br>
+
+              <!-- checkbox for newsletter subscription-->
+              <label for="subscribe">Subscribe to news letter"</label>
+              <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+              
+    </form>
+    </main>
     <footer>
         <p>&copy; Copyright 2024 Sarah Barajas Productions<br>
             <a href="https://github.com/SarahBarajas">Github</a></p>
