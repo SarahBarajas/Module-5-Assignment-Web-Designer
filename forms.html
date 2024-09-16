@@ -11,8 +11,8 @@
         <nav>
             <ul>
                 <li><a href="index.html"target=_self>Home</a></li>
-                <li><a href="tables.html"target=_self>Wikipedia Links</a></li>
-                <li><a href="links.html"target=_self>Subscribe</a></li>
+                <li><a href="links.html"target=_self>Wikipedia Links</a></li>
+                <li><a href="forms.html"target=_self>Subscribe</a></li>
                 <li><a href="media.html"target=_self>Creatures</a></li>
                 <li><a href="video.html"target=_self>Short film</a></li>
             </ul>
@@ -20,6 +20,7 @@
         <h1>Mythological Creatures</h1>
     </header>
     <main>
+        <h2>Subscribe to receive weekly newsletter</h2>
 
          <!--Beginning of the form element-->
          <form action="/submit" method="post">
@@ -51,6 +52,15 @@
               <!-- checkbox for newsletter subscription-->
               <label for="subscribe">Subscribe to our news letter"</label>
               <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+              <br>
+
+              <!--submit button to submit the form-->
+              <input type="submit" value="Submit">
+ 
+ 
+               <!--reset button to reset the form -->
+               <input type="reset" value="Reset">
               
     </form>
     </main>

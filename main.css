@@ -1,2 +1,23 @@
-h1, h2, h3,h4,h5,h6 { color: darkmagenta; } 
+h1{
+    color: darkorchid; /*purple text color*/
+    font-size: 4em; /*2x the default font size*/
+    margin-bottom: 1em; /*adding some space below the heading*/
+    text-shadow: 1px 1px black;
+    text-decoration-color: black;
+    text-align:center;
+}
+h2, h3,h4,h5,h6 { color: darkmagenta; 
+    font-size: 3em; /*3x the default font size*/
+    margin-bottom: 1em; /*adding some space below the heading*/
+    text-shadow: 1px 1px black;
+    text-decoration-color: black;
+    text-align:center;
+} 
 p a { color: red; } /* targeting a sub-element*/
+p{
+    font-size: larger;
+    color: black;
+}
+a { text-decoration: none; color:black}
+a:hover { background-color: rgb(255, 0, 89); color: white; }
+.section { background-color: blue; } 
