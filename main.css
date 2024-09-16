@@ -17,13 +17,29 @@ p a { color: red; } /* targeting a sub-element*/
 p{
     font-size: larger;
     color: black;
+    text-align: center;
+    font-weight: bold;
 }
 a { text-decoration: none; color:black}
 a:hover { background-color: rgb(255, 0, 89); color: white; }
 .section { background-color: blue; } 
 
-#special-feature{
-    background-color: #fde3a7; /*light gold background color*/
-    border-color: #f39c12; /*gold border color*/
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*adding shadow*/
+ul li{
+    margin-bottom: 5px; /* adding some space below each list item*/
+    color: purple; /* grayish-blue text color*/
 }
+
+body { 
+    background: url(images/background.jfif) repeat center center fixed; 
+    background-size:center;
+    background-size:Larger ;
+    background-position: top;
+   }
+   video {
+    display: block;
+    margin: 0 auto;
+    }
+    .form-center {
+        display:flex;
+        justify-content: center;
+      }
